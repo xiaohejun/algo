@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 #include "Trie.h"
 
 int main() {
@@ -12,5 +13,6 @@ int main() {
     for (int x : ans) {
         std::cout << x << " ";
     }
+    sort();
     return 0;
 }
